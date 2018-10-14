@@ -41,5 +41,13 @@ line.moveTo(mX,mY);
 line.lineTo(R,R);
 line.moveTo(hX,hY);
 line.lineTo(R,R);
-
 context.stroke(line);
+
+line.moveTo(0,0);
+line.lineTo(300,300);
+context.lineWidth = 5;
+context.stroke(line);
+context.fillStyle = "red";
+context.fillRect (0,0,200,200);
+context.fillStyle = "rgda (0,255,0,0.5)";
+context.fillRect (100,100,300,300);
